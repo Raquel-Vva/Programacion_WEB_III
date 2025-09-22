@@ -1,0 +1,16 @@
+console.log("------------------------------------------------");
+console.log("Nombre: Vaquela Valda Adriana Raquel");
+console.log("C.I.: 7080065 LP");
+console.log("Carrera: Informática");
+console.log("Materia: Programación Web III // INF 133");
+console.log("Fecha: 24/09/2025");
+console.log("------------------------------------------------");
+console.log("10. ¿Cuando es conveniente utilizar un callback, y cuando es necesario utilizar una promesa?");
+console.log();
+console.log('Respuesta:');
+console.log('CALLBACK: Es conveniente utilizar un callback cuando se quiere ejecutar una función después de que otra función haya terminado su ejecución, especialmente en operaciones asíncronas como lecturas de archivos, llamadas a APIs, o temporizadores. Los callbacks permiten manejar estas operaciones sin bloquear el hilo principal del programa.');
+console.log();
+console.log('PROMESA: Es necesario utilizar una promesa cuando se quiere manejar múltiples operaciones asíncronas de manera más estructurada y legible. Las promesas permiten encadenar operaciones asíncronas y manejar errores de forma más sencilla que con callbacks, evitando el "callback hell" (anidamiento excesivo de callbacks). Las promesas son especialmente útiles cuando se tienen varias operaciones que dependen unas de otras o cuando se quiere esperar a que varias operaciones se completen antes de continuar.');
+console.log();
+console.log('En resumen, los callbacks son útiles para operaciones asíncronas simples, mientras que las promesas son más adecuadas para manejar flujos de trabajo asíncronos más complejos y mejorar la legibilidad del código.');
+console.log();
